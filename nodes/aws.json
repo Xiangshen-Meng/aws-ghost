@@ -1,0 +1,10 @@
+{
+  "run_list": [
+    "recipe[basic]",
+    "recipe[nodejs]",
+    "recipe[nginx]"
+  ],
+  "automatic": {
+    "ipaddress": "aws"
+  }
+}
